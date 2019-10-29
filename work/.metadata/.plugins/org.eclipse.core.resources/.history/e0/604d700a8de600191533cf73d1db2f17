@@ -1,0 +1,11 @@
+package com.yunhe.day02;
+
+public class Test2 {
+
+	public static void main(String[] args) {
+		StringBuffer sb = new StringBuffer("adc");
+		String s = "cdf";
+		System.out.println(sb.append(s));
+  System.out.println(sb.insert(1, s));
+	}
+}
